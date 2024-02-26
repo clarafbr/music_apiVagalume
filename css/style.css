@@ -6,6 +6,10 @@
     --white: #fff;
 
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: var(--gray100);
     font-family: "Jockey One";
@@ -34,10 +38,17 @@ main{
     background-color: var(--black);
     color: var(--gray100);
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
 }
 .rodape-p{
     font-family: "Inter";
-    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    justify-content: center;
+   
 }
 
 /*index*/
@@ -76,21 +87,74 @@ main{
     width: 400px;
     height: 400px;
     background-color: var(--black);
-    
+    border-radius: 10px;
+    padding: 10px;
+    font-family: "Inter"; 
+    font-weight: bold;
 }
 .box-logo-login{
-    background-color: var(--black);
     color: var(--gray100);
     display: flex;
     align-items: baseline;
     gap: 15px;
     padding: 10px;
     width: 400px;
+    border-radius: 10px;
+    font-family: "Jockey one";
 }
-#submit{
+#btn-login{
     background-color: var(--black);
     border-color: var(--gray100);
+    color: var(--gray100);
+    padding: 2px 150px 2px 150px;
+    font-family: "Inter";
+    font-weight: bold;
+    
+    
 }
+#btn-login:hover{
+    background-color:var(--gray100);
+    color: var(--black);
+    border-color: var(--black);   
+}
+.box-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+
+/*Artistas*/
+.main-artistas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-main-artistas{
+    width: 1320px;
+    height:  150px;
+    text-align: left;
+}
+#input-artistas{
+    font-family: "Inter";
+}
+
+#btn-artistas{
+    background-color: var(--black);
+    border-color: var(--gray100);
+    color: var(--gray100);
+    padding: 2px 50px 2px 50px;
+    font-family: "Inter";
+    font-weight: bold;
+    
+}
+#btn-artistas:hover{
+    background-color:var(--gray100);
+    color: var(--black);
+    border-color: var(--black);   
+}
+
 
 
 
