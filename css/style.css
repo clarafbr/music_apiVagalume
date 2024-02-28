@@ -130,6 +130,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .div-main-artistas{
     width: 1320px;
@@ -154,7 +155,30 @@ main{
     color: var(--black);
     border-color: var(--black);   
 }
+/*Resultado da pesquisa*/
+.results-list-artist{
+    width: 1320px;
+    height:  150px;
+    text-align: left;
 
+}
+.nome-img-artist{
+    width: 1320px;
+    color: var(--gray100);
+    background-color: var(--black);
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    gap: 15px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.nome-img-artist h1{
+    padding-top: 60px;
+}
+.img-artist{
+    border-radius: 10px 0px 0px 10px; 
+}
 
 
 
