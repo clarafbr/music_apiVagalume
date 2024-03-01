@@ -219,5 +219,15 @@ main{
     color: var(--gray200);
     
 }
+/*Div's adicionadas (artistas.html)*/
+.genre-artist{
+    display: flex;
+    flex-direction: row;
+}
+.toplyrics-artist{
+    display: flex;
+    flex-direction: column;
+}
+
 
 
