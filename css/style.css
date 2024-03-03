@@ -133,7 +133,7 @@ main{
     flex-direction: column;
 }
 .div-main-artistas{
-    width: 1320px;
+    width: 1000px;
     height:  150px;
     text-align: left;
 }
@@ -171,13 +171,13 @@ main{
 }
 /*Resultado da pesquisa*/
 .results-list-artist{
-    width: 1320px;
+    width: 1000px;
     height:  150px;
     text-align: left;
 
 }
 .nome-img-artist{
-    width: 1320px;
+    width: 1000px;
     color: var(--gray100);
     background-color: var(--black);
     display: flex;
@@ -194,7 +194,7 @@ main{
     border-radius: 10px 0px 0px 10px; 
 }
 .genre-artist{
-    width: 1320px;
+    width: 1000px;
     color: var(--gray100);
     background-color: var(--black);
     display: flex;
@@ -205,7 +205,7 @@ main{
     padding: 10px;
 }
 .toplyrics-artist{
-    width: 1320px;
+    width: 1000px;
     color: var(--gray100);
     background-color: var(--black);
     display: flex;
@@ -228,6 +228,290 @@ main{
     display: flex;
     flex-direction: column;
 }
+
+/*Responsividade artistas.html*/
+
+@media screen and (max-width: 1008px){
+/*"Max-width" tela menor que X realize:*/
+    .div-main-artistas{
+        width: 700px;
+    }
+    #btn-artistas{
+        padding: 2px 30px 2px 30px; 
+    }
+    #btn-artistas-limpar{
+        padding: 2px 30px 2px 30px;
+    }
+    .results-list-artist{
+        width: 700px;
+    }
+    .nome-img-artist{
+        width: 700px;
+    }
+    .genre-artist{
+        width: 700px;
+    }
+    .toplyrics-artist{
+        width: 700px;
+    }
+}
+@media screen and (max-width: 760px){
+    /*"Max-width" tela menor que X realize:*/
+        .div-main-artistas{
+            width: 500px;
+        }
+        #btn-artistas{
+            padding: 2px 30px 2px 30px; 
+        }
+        #btn-artistas-limpar{
+            padding: 2px 30px 2px 30px;
+        }
+        .results-list-artist{
+            width: 500px;
+        }
+        .nome-img-artist{
+            width: 500px;
+        }
+        .genre-artist{
+            width: 500px;
+        }
+        .toplyrics-artist{
+            width: 500px;
+        }
+    }
+@media screen and (max-width: 520px){
+    /*"Max-width" tela menor que X realize:*/
+        .div-main-artistas{
+            width: 400px;
+        }
+        #btn-artistas{
+            padding: 2px 25px 2px 25px; 
+        }
+        #btn-artistas-limpar{
+            padding: 2px 25px 2px 25px;
+        }
+        .results-list-artist{
+            width: 400px;
+        }
+        .nome-img-artist{
+            width: 400px;
+        }
+        .genre-artist{
+            width: 400px;
+        }
+        .toplyrics-artist{
+            width: 400px;
+        }
+}
+@media screen and (max-width: 410px){
+    /*"Max-width" tela menor que X realize:*/
+        .div-main-artistas{
+            width: 300px;
+        }
+        #btn-artistas{
+            padding: 2px 20px 2px 20px; 
+        }
+        #btn-artistas-limpar{
+            padding: 2px 20px 2px 20px;
+        }
+        .results-list-artist{
+            width: 300px;
+        }
+        .nome-img-artist{
+            width: 300px;
+        }
+        .genre-artist{
+            width: 300px;
+        }
+        .toplyrics-artist{
+            width: 300px;
+        }
+}
+@media screen and (max-width: 320px){
+    /*"Max-width" tela menor que X realize:*/
+        .div-main-artistas{
+            width: 220px;
+        }
+        #btn-artistas{
+            padding: 2px 15px 2px 15px; 
+        }
+        #btn-artistas-limpar{
+            padding: 2px 15px 2px 15px;
+        }
+        .results-list-artist{
+            width: 220px;
+        }
+        .nome-img-artist{
+            width: 220px;
+        }
+        .genre-artist{
+            width: 220px;
+        }
+        .toplyrics-artist{
+            width: 220px;
+        }
+}
+
+/*Responsividade Login*/
+
+@media screen and (max-width: 750px){
+    .form-box{
+        width: 350px;
+        height: 350px;
+    }
+    .box-logo-login{
+        width: 350px;
+    }
+    #btn-login{
+        padding: 2px 95px 2px 95px;
+    }
+
+}
+@media screen and (max-width: 370px){
+    .form-box{
+        width: 250px;
+        height: 350px;
+    }
+    .box-logo-login{
+        width: 250px;
+    }
+    #btn-login{
+        padding: 2px 85px 2px 85px;
+    }
+
+}
+@media screen and (max-width: 260px){
+    .form-box{
+        width: 170px;
+        height: 400px;
+    }
+    .box-logo-login{
+        width: 170px;
+    }
+    #btn-login{
+        padding: 2px 50px 2px 50px;
+    }
+
+}
+
+/*Responsividade index.html*/
+    @media screen and (max-width: 1000px){
+        #carouselExample{
+            width: 500px;
+            
+        }
+    }
+    @media screen and (max-width: 990px){
+        #carouselExample{
+            width: 350px;
+            
+        }
+        .box-logo{
+            padding-top: 5px;
+            font-size: 17px;
+        }
+        .box-p{
+            padding: 5px;
+            font-size: 13px;
+        }
+    }
+    @media screen and (max-width: 767px){
+        #carouselExample{
+            width: 250px;
+            
+        }
+        .box-logo{
+            padding-top: 2px;
+            font-size: 13px;
+            gap: 10px;
+        }
+        .box-p{
+            padding: 2px;
+            font-size: 10px;
+        }
+    }
+    @media screen and (max-width: 530px){
+        #carouselExample{
+            width: 500px;
+            padding-bottom:7px ;
+            
+        }
+        .box-logo{
+            padding-top: 7px;
+            font-size: 13px;
+            gap: 10px;
+        }
+        .box-p{
+            padding: 5px;
+            font-size: 10px;
+        }
+    }
+    @media screen and (max-width: 515px){
+        #carouselExample{
+            width: 400px;
+            
+        }
+        .box-logo{
+            padding-top: 7px;
+            font-size: 13px;
+            gap: 10px;
+        }
+        .box-p{
+            padding: 5px;
+            font-size: 10px;
+        }
+    }
+    @media screen and (max-width: 430px){
+        #carouselExample{
+            width: 380px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        .box-logo{
+            padding-top: 7px;
+            font-size: 13px;
+            gap: 10px;
+        }
+        .box-p{
+            padding: 7px;
+            font-size: 12px;
+        }
+    }
+    @media screen and (max-width: 390px){
+        #carouselExample{
+            width: 350px;
+            
+        }
+        .box-logo{
+            padding-top: 7px;
+            font-size: 13px;
+            gap: 10px;
+        }
+        .box-p{
+            padding: 7px;
+            font-size: 10px;
+        }
+    }
+    @media screen and (max-width: 360px){
+        #carouselExample{
+            width: 320px;
+            
+        }
+        .box-logo{
+            padding-top: 7px;
+            font-size: 13px;
+            gap: 10px;
+        }
+        .box-p{
+            padding: 7px;
+            font-size: 10px;
+        }
+    }
+/*Sobre.html*/
+
+
 
 
 
