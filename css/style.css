@@ -35,21 +35,18 @@ main{
 }
 
 .rodape{
-    background-color: var(--black);
-    color: var(--gray100);
-    text-align: center;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;
+    background-color: var(--black);
+    text-align: center;
+    color: var(--gray100);
 }
 .rodape-p{
-    font-family: "Inter";
-    padding-top: 10px;
-    padding-bottom: 20px;
-    justify-content: center;
-   
+    padding-top: 5px;
+    font-family: "Inter" ;
 }
+
 
 /*index*/
 #carouselExample{
@@ -228,6 +225,7 @@ main{
     display: flex;
     flex-direction: column;
 }
+
 
 /*Responsividade artistas.html*/
 
@@ -509,7 +507,7 @@ main{
             font-size: 10px;
         }
     }
-/*Sobre.html*/
+
 
 
 
